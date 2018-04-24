@@ -16,7 +16,8 @@ public class BaseTest {
 		System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		//String url = PropertyManager.getProperty("url");
-		driver.get(PropertyManager.getProperty("url"));
+		//driver.get(PropertyManager.getProperty("url"));
+		driver.get(PropertyManager.getProperty("prismurl"));
 	}
 
 	@AfterTest

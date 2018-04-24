@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13783" started-at="2018-04-18T07:50:58Z" finished-at="2018-04-18T07:51:12Z">
+  <suite name="Default suite" duration-ms="86501" started-at="2018-04-24T12:17:01Z" finished-at="2018-04-24T12:18:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13783" started-at="2018-04-18T07:50:58Z" finished-at="2018-04-18T07:51:12Z">
+    <test name="Default test" duration-ms="86501" started-at="2018-04-24T12:17:01Z" finished-at="2018-04-24T12:18:28Z">
       <class name="tests.LoginTest">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:tests.LoginTest@724af044]" name="launchApp" is-config="true" duration-ms="9964" started-at="2018-04-18T13:20:58Z" finished-at="2018-04-18T13:21:08Z">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:tests.LoginTest@724af044]" name="launchApp" is-config="true" duration-ms="22318" started-at="2018-04-24T17:47:01Z" finished-at="2018-04-24T17:47:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="verifylogin()[pri:0, instance:tests.LoginTest@724af044]" name="verifylogin" duration-ms="2604" started-at="2018-04-18T13:21:08Z" finished-at="2018-04-18T13:21:11Z">
+        <test-method status="PASS" signature="verifylogin()[pri:1, instance:tests.LoginTest@724af044]" name="verifylogin" duration-ms="10663" started-at="2018-04-24T17:47:24Z" finished-at="2018-04-24T17:47:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:tests.LoginTest@724af044]" name="closeApp" is-config="true" duration-ms="1177" started-at="2018-04-18T13:21:11Z" finished-at="2018-04-18T13:21:12Z">
+        <test-method status="PASS" signature="verifyMenuSelection()[pri:2, instance:tests.LoginTest@724af044]" name="verifyMenuSelection" duration-ms="52263" started-at="2018-04-24T17:47:35Z" finished-at="2018-04-24T17:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenuSelection -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:tests.LoginTest@724af044]" name="closeApp" is-config="true" duration-ms="1231" started-at="2018-04-24T17:48:27Z" finished-at="2018-04-24T17:48:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
